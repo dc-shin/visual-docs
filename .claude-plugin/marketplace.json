@@ -1,6 +1,6 @@
 {
   "name": "dc-shin",
-  "description": "Plugins by dc-shin for richer agent-to-human communication in Claude Code.",
+  "description": "Turns agent-written design, analysis, and spec documents into rich, self-contained visual HTML - diagrams, charts, highlighted code, and math - so people and agents communicate more clearly than with plain Markdown.",
   "owner": {
     "name": "dc-shin",
     "email": "gshinmail@gmail.com"
