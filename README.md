@@ -17,16 +17,14 @@ Libraries are loaded from CDN only when the document actually uses them.
 
 ## Install
 
-In Claude Code, add this repository as a marketplace and install the plugin:
+From the Claude Code community marketplace:
 
 ```
-/plugin marketplace add dc-shin/visual-docs
-/plugin install visual-docs@dc-shin
+/plugin marketplace add anthropics/claude-plugins-community
+/plugin install visual-docs@claude-community
 ```
 
-To update later, run `/plugin marketplace update dc-shin` and reinstall.
-
-For local development without installing, you can also load it directly:
+For local development without installing, load the plugin directly:
 
 ```bash
 claude --plugin-dir ./visual-docs.zip
@@ -42,7 +40,7 @@ The skill triggers automatically. To invoke it explicitly:
 
 Or just ask naturally:
 
-- "결제 서비스 설계 문서 작성해줘"
+- "Write a design doc for the payment service"
 - "Write an architecture RFC for the new auth service"
-- "EDA 결과 분석 보고서 만들어줘"
+- "Create an EDA analysis report from this dataset"
 - "Create a competitive analysis report"
