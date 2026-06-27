@@ -24,6 +24,15 @@ From the Claude Code community marketplace:
 /plugin install visual-docs@claude-community
 ```
 
+Or install straight from this repository (works immediately, before the community listing is live):
+
+```
+/plugin marketplace add dc-shin/visual-docs
+/plugin install visual-docs@dc-shin
+```
+
+To update the direct install later, run `/plugin marketplace update dc-shin` and reinstall.
+
 For local development without installing, load the plugin directly:
 
 ```bash
