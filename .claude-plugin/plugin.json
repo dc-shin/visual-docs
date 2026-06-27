@@ -3,7 +3,8 @@
   "description": "Produces design, analysis, and specification documents as rich, self-contained HTML files instead of plain Markdown. Includes Mermaid diagrams, Chart.js charts, syntax-highlighted code, KaTeX math, callout boxes, and stat cards.",
   "version": "1.0.0",
   "author": {
-    "name": "gshinmail@gmail.com"
+    "name": "dc-shin",
+    "email": "gshinmail@gmail.com"
   },
   "homepage": "https://github.com/dc-shin/visual-docs",
   "repository": "https://github.com/dc-shin/visual-docs",

@@ -17,7 +17,16 @@ Libraries are loaded from CDN only when the document actually uses them.
 
 ## Install
 
-**From ZIP file:**
+In Claude Code, add this repository as a marketplace and install the plugin:
+
+```
+/plugin marketplace add dc-shin/visual-docs
+/plugin install visual-docs@dc-shin
+```
+
+To update later, run `/plugin marketplace update dc-shin` and reinstall.
+
+For local development without installing, you can also load it directly:
 
 ```bash
 claude --plugin-dir ./visual-docs.zip
@@ -25,7 +34,7 @@ claude --plugin-dir ./visual-docs.zip
 
 ## Usage
 
-The skill triggers automatically. After installing, invoke with:
+The skill triggers automatically. To invoke it explicitly:
 
 ```
 /visual-docs:visual-docs
